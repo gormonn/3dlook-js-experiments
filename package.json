@@ -1,0 +1,32 @@
+{
+  "name": "3dlook-js-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "s": "node  -r dotenv/config ./dist/index.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gormonn/3dlook-js-experiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gormonn/3dlook-js-experiments/issues"
+  },
+  "homepage": "https://github.com/gormonn/3dlook-js-experiments#readme",
+  "dependencies": {
+    "@3dlook/saia-sdk": "^2.14.1",
+    "dotenv": "^8.2.0",
+    "image-to-base64": "^2.1.1",
+    "webpack": "^5.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "file-loader": "^6.2.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
